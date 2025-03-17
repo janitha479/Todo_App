@@ -1,125 +1,137 @@
+---
+
 # TodoApp - Task Manager 📝
 
-A modern mobile task management application built with React Native and TypeScript, featuring an onboarding flow and intuitive task management capabilities.
+A modern mobile task management application built with **React Native** and **TypeScript**, featuring an onboarding flow and intuitive task management capabilities.
 
-## Features ✨
+---
 
-- **Onboarding Experience**
-  - Welcome screen with engaging call-to-action
-  - Step-by-step instructional guide
-  - Smooth screen transitions
+## ✨ Features
 
-- **Core Functionality**
-  - Create, complete, and delete tasks
-  - Visual feedback for completed items
-  - Real-time task list updates
-  - Clean and intuitive interface
+### Onboarding Experience
+- Welcome screen with an engaging call-to-action  
+- Step-by-step instructional guide  
+- Smooth screen transitions  
 
-- **Technical Highlights**
-  - Type-safe implementation with TypeScript
-  - React Navigation for seamless transitions
-  - Optimized rendering with FlatList
-  - Cross-platform compatibility (iOS/Android)
+### Core Functionality
+- Create, complete, and delete tasks  
+- Visual feedback for completed items (strikethrough style)  
+- Real-time task list updates  
+- Clean and intuitive user interface  
 
-## Prerequisites 📋
+### Technical Highlights
+- Type-safe implementation with **TypeScript**  
+- Seamless navigation with **React Navigation**  
+- Optimized rendering using **FlatList**  
+- Cross-platform support (iOS & Android)  
 
-- Node.js (v16+ recommended)
-- npm (v7+)
-- Expo CLI
-- Android Studio/Xcode (for emulators)
+---
 
-## Installation 🛠️
+## 📋 Prerequisites
+- **Node.js** (v16+ recommended)  
+- **npm** (v7+)  
+- **Expo CLI**  
+- **Android Studio** or **Xcode** (for emulators or real device testing)  
 
-1. Clone the repository:
-```bash
-git clone https://github.com/janitha479/TodoApp.git
-cd TodoApp
-Install dependencies:
-***
+---
 
-Copy
-***bash
-npm install
-npx expo install react-native-screens react-native-safe-area-context react-native-vector-icons
-Start the development server:
+## 🛠️ Installation
 
-bash
-Copy
-npm start
-Usage 🚀
-Welcome Screen
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/janitha479/TodoApp.git
+   cd TodoApp
+   ```
 
-Tap "Get Started" to begin
+2. **Install dependencies:**
+   ```bash
+   npm install
+   npx expo install react-native-screens react-native-safe-area-context react-native-vector-icons
+   ```
 
-Instructions Screen
+3. **Start the development server:**
+   ```bash
+   npm start
+   ```
 
-Review the interactive guide
+---
 
-Tap "Let's Get Started!" to continue
+## 🚀 Usage Guide
 
-Main Interface
+### Onboarding Screens  
+- **Welcome Screen**: Tap `Get Started` to begin.  
+- **Instructions Screen**: Review the interactive guide and tap `Let's Get Started!` to continue.  
 
-Add Task: Type in input field and press Add
+### Main Task Manager  
+- **Add Task**: Type in the input field and press `Add`.  
+- **Complete Task**: Tap the task text to toggle its completed status.  
+- **Delete Task**: Press the `X` button next to any task to remove it.  
+- **Visual Feedback**: Completed tasks are shown with a strikethrough effect.  
 
-Complete Task: Tap task text to toggle status
+---
 
-Delete Task: Press X button on any task
+## 💻 Tech Stack
+- **Framework**: React Native (Expo)  
+- **Language**: TypeScript  
+- **Navigation**: React Navigation  
+- **Icons**: react-native-vector-icons  
+- **State Management**: React `useState`  
+- **Linting & Formatting**: ESLint / Prettier  
 
-Visual Feedback: Completed tasks show strikethrough
+---
 
-Tech Stack 💻
-Framework: React Native (Expo)
-
-Language: TypeScript
-
-Navigation: React Navigation
-
-Icons: react-native-vector-icons
-
-State Management: React useState
-
-Linting: ESLint/Prettier
-
-Project Structure 📂
-Copy
+## 📂 Project Structure
+```
 TodoApp/
 ├── src/
-│   ├── components/      # Reusable components
-│   ├── screens/         # Application views
+│   ├── components/          # Reusable UI components
+│   ├── screens/             # App screens/views
 │   │   ├── WelcomeScreen.tsx
 │   │   ├── InstructionsScreen.tsx
 │   │   └── HomeScreen.tsx
-│   └── types/           # Type definitions
-├── App.tsx              # Root component
+│   └── types/               # Type definitions
+├── App.tsx                  # Root component
 ├── package.json
 └── tsconfig.json
-Contributing 🤝
-Contributions are welcome! Please follow these steps:
+```
 
-Fork the project
+---
 
-Create your feature branch (git checkout -b feature/AmazingFeature)
+## 🤝 Contributing
 
-Commit your changes (git commit -m 'Add some AmazingFeature')
+Contributions are welcome! Follow these steps:  
+1. **Fork the repository**  
+2. **Create a feature branch**  
+   ```bash
+   git checkout -b feature/AmazingFeature
+   ```  
+3. **Commit your changes**  
+   ```bash
+   git commit -m 'Add some AmazingFeature'
+   ```  
+4. **Push to the branch**  
+   ```bash
+   git push origin feature/AmazingFeature
+   ```  
+5. **Open a Pull Request**  
 
-Push to the branch (git push origin feature/AmazingFeature)
+---
 
-Open a Pull Request
+## 🚧 Future Enhancements
+- Persistent storage with **AsyncStorage**  
+- Task categories and tags  
+- Due dates and reminders  
+- Dark mode support  
+- Swipe-to-delete gestures  
+- Cloud sync functionality  
 
-Future Enhancements 🚧
-Persistent storage with AsyncStorage
+---
 
-Task categories and tags
+## 📄 License
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
-Due dates and reminders
+---
 
-Dark mode support
+### 🎉 Happy Task Managing!
 
-Swipe-to-delete gesture
-
-Cloud sync functionality
-
-License 📄
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Happy Task Managing! 🎉
+---
