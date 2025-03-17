@@ -35,9 +35,10 @@ A modern mobile task management application built with React Native and TypeScri
 git clone https://github.com/janitha479/TodoApp.git
 cd TodoApp
 Install dependencies:
+***
 
-bash
 Copy
+***bash
 npm install
 npx expo install react-native-screens react-native-safe-area-context react-native-vector-icons
 Start the development server:
